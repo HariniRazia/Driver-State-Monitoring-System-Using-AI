@@ -14,7 +14,7 @@ reye = cv2.CascadeClassifier('haarcascade_righteye_2splits.xml')
 
 lbl=['Close','Open']
 
-model = load_model('cnncat2.h5')
+model = load_model('model.h5')
 path = os.getcwd()
 print("Video Monitoring starts.....")
 cap = cv2.VideoCapture(0)
